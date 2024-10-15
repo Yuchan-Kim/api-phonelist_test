@@ -11,7 +11,7 @@ import com.javaex.util.JsonResult;
 import com.javaex.vo.PersonVo;
 
 @RestController 
-public class PhoneListController {
+public class PhoneListController { 
 
 	@Autowired
 	private PhoneListService phoneListService;
