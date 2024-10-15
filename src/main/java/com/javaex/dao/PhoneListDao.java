@@ -18,7 +18,7 @@ public class PhoneListDao {
 	//리스트 가져오기
 	public List<PersonVo> getPersonList() {
 		System.out.println("PhoneListDao.getPersonList()");
-		List<PersonVo> personList = sqlSession.selectList("phonebook.selectList");
+		List<PersonVo> personList = sqlSession.selectList("phonelist.selectList");
 		System.out.println("==========================================");
 		System.out.println(personList);
 		System.out.println("==========================================");
