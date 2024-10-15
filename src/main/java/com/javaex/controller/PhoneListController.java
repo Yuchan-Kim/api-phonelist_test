@@ -16,7 +16,7 @@ public class PhoneListController {
 	@Autowired
 	private PhoneListService phoneListService;
 	
-	@GetMapping(value="/api/phonelist/persons")
+	@GetMapping(value="api/phonelist/persons")
 	public JsonResult getList() {
 		System.out.println("PhoneListController.getList()");
 		
