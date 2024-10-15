@@ -13,7 +13,7 @@ public class PhoneListDao {
 	
 	// 필드
 	@Autowired
-	private SqlSession sqlSession;
+	private SqlSession sqlSession; 
 
 	//리스트 가져오기
 	public List<PersonVo> getPersonList() {
